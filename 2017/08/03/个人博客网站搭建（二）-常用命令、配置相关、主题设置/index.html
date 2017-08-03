@@ -97,7 +97,7 @@
 <meta property="og:site_name" content="代码未成，何以家为">
 <meta property="og:description" content="个人博客网站搭建基本教程（二）">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-08-03T05:12:57.329Z">
+<meta property="og:updated_time" content="2017-08-03T05:18:55.617Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="个人博客网站搭建（二）--常用命令、配置相关、主题设置">
 <meta name="twitter:description" content="个人博客网站搭建基本教程（二）">
@@ -417,7 +417,7 @@
                   <span class="post-meta-item-text">字数统计</span>
                 
                 <span title="字数统计">
-                  1,529
+                  1,528
                 </span>
               
 
@@ -501,11 +501,9 @@
 </li>
 <li><p>mapsite站点地图：引导搜索引擎爬取希望被收录的网页。提交好到一到两周，网站收录明显增加。<br>参考文章：<br><a href="http://seispider.top/Hexo%E6%90%AD%E5%BB%BAgithub%E5%8D%9A%E5%AE%A2%E8%A7%A3%E5%86%B3%E7%99%BE%E5%BA%A6google%E6%A3%80%E7%B4%A2%E9%97%AE%E9%A2%98/" target="_blank" rel="external">Hexo搭建的Github博客提交给Baidu、Google检索的问题</a></p>
 <ul>
-<li>google验证时下载文件验证失败，使用备用方法：gogle分析<br>-google分析<br><a href="http://www.codeblocq.com/2015/12/Add-Google-Analytics-to-your-hexo-blog/" target="_blank" rel="external">Add Google Analytics to your hexo blog</a><ul>
+<li>google验证时下载文件验证失败，使用备用方法：google分析<br><a href="http://www.codeblocq.com/2015/12/Add-Google-Analytics-to-your-hexo-blog/" target="_blank" rel="external">Add Google Analytics to your hexo blog</a></li>
 <li>百度验证时下载文件方法验证失败，原因：选择验证网站时http与https的验证文件不一致，导致错误。应用https验证。最后成功。</li>
-</ul>
-</li>
-<li>使用Baidu主动提交链接方法在修改_config.yml的deploy出现错误，原因：符号格式：空格个数和“-”的位置。如下：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">- type: git</div><div class="line">  repo: git@github.com:github账号/仓库.github.io.git</div><div class="line">  branch: master</div><div class="line">- type: baidu_url_submitter</div></pre></td></tr></table></figure>
+<li>使用Baidu主动提交链接方法在修改_config.yml的deploy出现错误，原因：符号格式：空格个数和“-”的位置。如下正确：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">- type: git</div><div class="line">  repo: git@github.com:github账号/仓库.github.io.git</div><div class="line">  branch: master</div><div class="line">- type: baidu_url_submitter</div></pre></td></tr></table></figure>
 </li>
 </ul>
 <p><a href="http://hui-wang.info/2016/10/23/Hexo%E6%8F%92%E4%BB%B6%E4%B9%8B%E7%99%BE%E5%BA%A6%E4%B8%BB%E5%8A%A8%E6%8F%90%E4%BA%A4%E9%93%BE%E6%8E%A5/" target="_blank" rel="external">Hexo插件之百度主动提交链接</a><br><a href="http://www.yuan-ji.me/Hexo-%E4%BC%98%E5%8C%96%EF%BC%9A%E6%8F%90%E4%BA%A4sitemap%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%99%BE%E5%BA%A6%E7%88%AC%E8%99%AB%E6%8A%93%E5%8F%96-GitHub-Pages-%E9%97%AE%E9%A2%98/" target="_blank" rel="external">Hexo 优化：提交 sitemap 及解决百度爬虫无法抓取 GitHub Pages 链接问题</a><br><a href="http://www.jianshu.com/p/86557c34b671" target="_blank" rel="external">Hexo Seo优化让你的博客在google搜索排名第一</a></p>
