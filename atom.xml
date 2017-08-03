@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://PrometheusQin.github.io/"/>
-  <updated>2017-08-03T04:41:33.779Z</updated>
+  <updated>2017-08-03T05:12:57.329Z</updated>
   <id>https://PrometheusQin.github.io/</id>
   
   <author>
@@ -20,9 +20,11 @@
     <link href="https://PrometheusQin.github.io/2017/08/03/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%EF%BC%88%E4%BA%8C%EF%BC%89-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E3%80%81%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3%E3%80%81%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE/"/>
     <id>https://PrometheusQin.github.io/2017/08/03/个人博客网站搭建（二）-常用命令、配置相关、主题设置/</id>
     <published>2017-08-03T04:20:23.000Z</published>
-    <updated>2017-08-03T04:41:33.779Z</updated>
+    <updated>2017-08-03T05:12:57.329Z</updated>
     
-    <content type="html"><![CDATA[<p>个人博客网站搭建基本教程（二）</p>
+    <content type="html"><![CDATA[<blockquote>
+<p>个人博客网站搭建基本教程（二）</p>
+</blockquote>
 <a id="more"></a>
 <h3 id="1-常用命令"><a href="#1-常用命令" class="headerlink" title="1. 常用命令"></a>1. 常用命令</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">hexo help #查看帮助</div><div class="line">hexo init #初始化一个目录</div><div class="line">hexo new &quot;postName&quot; #新建文章</div><div class="line">hexo new page &quot;pageName&quot; #新建页面</div><div class="line">hexo generate #生成网页，可以在 public 目录查看整个网站的文件</div><div class="line">hexo server #本地预览，&apos;Ctrl+C&apos;关闭</div><div class="line">hexo deploy #部署.deploy目录</div><div class="line">hexo clean   #清除缓存文件 (db.json) 和已生成的静态文件 (public),</div><div class="line">             #用于更改变更了某些地方导致页面显示不完善</div></pre></td></tr></table></figure>
 <p>简写：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">hexo n == hexo new</div><div class="line">hexo g == hexo generate</div><div class="line">hexo s == hexo server</div><div class="line">hexo d == hexo deploy</div></pre></td></tr></table></figure></p>
@@ -106,7 +108,9 @@
     
     <summary type="html">
     
-      &lt;p&gt;个人博客网站搭建基本教程（二）&lt;/p&gt;
+      &lt;blockquote&gt;
+&lt;p&gt;个人博客网站搭建基本教程（二）&lt;/p&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
@@ -126,9 +130,12 @@
     <link href="https://PrometheusQin.github.io/2017/08/03/%E6%9C%AD%E8%AE%B0%E7%AE%80%E4%BB%8B/"/>
     <id>https://PrometheusQin.github.io/2017/08/03/札记简介/</id>
     <published>2017-08-03T04:00:45.000Z</published>
-    <updated>2017-08-03T04:45:57.872Z</updated>
+    <updated>2017-08-03T05:13:42.522Z</updated>
     
-    <content type="html"><![CDATA[<p>blog 评论系统 搜索系统 札记 简介<br><a id="more"></a></p>
+    <content type="html"><![CDATA[<blockquote>
+<p>blog 评论系统 搜索系统 札记 简介</p>
+</blockquote>
+<a id="more"></a>
 <p>这是我的第一个个人博客，折腾了大概有一周左右吧，真拖沓。准备在这个博客里写一些自己的学习笔记和相关的我折腾的技术类教程。这些内容应该和我简书里的内容是相同的，不过现在还没有准备完全脱离简书。</p>
 <p>另外“札记”会记录自己的日常，男人嘛，总有那么几天来“大姨夫”，算是借以发泄吧。</p>
 <p>关于评论系统，我用的是国外的HyperComments，没有翻墙的同学可能无法登陆评论，下面可以使用匿名评论，添加一个name和e-mail就行了。关于问题类的评论，我会尽快回复。</p>
@@ -137,7 +144,9 @@
     
     <summary type="html">
     
-      &lt;p&gt;blog 评论系统 搜索系统 札记 简介&lt;br&gt;
+      &lt;blockquote&gt;
+&lt;p&gt;blog 评论系统 搜索系统 札记 简介&lt;/p&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
@@ -151,9 +160,11 @@
     <link href="https://PrometheusQin.github.io/2017/07/28/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%EF%BC%88%E4%B8%80%EF%BC%89-%E5%9F%BA%E4%BA%8EHexo%E4%B8%8EGithub/"/>
     <id>https://PrometheusQin.github.io/2017/07/28/个人博客网站搭建（一）-基于Hexo与Github/</id>
     <published>2017-07-28T07:17:42.000Z</published>
-    <updated>2017-08-03T04:41:26.739Z</updated>
+    <updated>2017-08-03T05:13:24.517Z</updated>
     
-    <content type="html"><![CDATA[<p>个人博客网站搭建基本教程（一）</p>
+    <content type="html"><![CDATA[<blockquote>
+<p>个人博客网站搭建基本教程（一）</p>
+</blockquote>
 <a id="more"></a>
 <h2 id="1-为什么要搭建个人博客网站？"><a href="#1-为什么要搭建个人博客网站？" class="headerlink" title="1. 为什么要搭建个人博客网站？"></a>1. 为什么要搭建个人博客网站？</h2><ul>
 <li>记录折腾软件或者技术的过程，免得下次再折腾的时候重新找各种网站和教程——省事</li>
@@ -216,7 +227,9 @@
     
     <summary type="html">
     
-      &lt;p&gt;个人博客网站搭建基本教程（一）&lt;/p&gt;
+      &lt;blockquote&gt;
+&lt;p&gt;个人博客网站搭建基本教程（一）&lt;/p&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
