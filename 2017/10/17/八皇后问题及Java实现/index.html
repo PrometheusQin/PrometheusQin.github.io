@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="算法,Java," />
 
 
 
@@ -89,18 +89,18 @@
 
 
 
-<meta name="description" content="blog 评论系统 搜索系统 札记 简介">
-<meta name="keywords" content="前端,html,css,Ubuntu,秦辉东,hexo,github">
+<meta name="description" content="八皇后问题及Java实现，其中包括递归和非递归形式两种">
+<meta name="keywords" content="算法,Java">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Blog简介">
-<meta property="og:url" content="https://PrometheusQin.github.io/2017/08/03/札记简介/index.html">
+<meta property="og:title" content="八皇后问题及Java实现">
+<meta property="og:url" content="https://PrometheusQin.github.io/2017/10/17/八皇后问题及Java实现/index.html">
 <meta property="og:site_name" content="代码未成，何以家为">
-<meta property="og:description" content="blog 评论系统 搜索系统 札记 简介">
+<meta property="og:description" content="八皇后问题及Java实现，其中包括递归和非递归形式两种">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-24T13:26:58.642Z">
+<meta property="og:updated_time" content="2017-10-17T09:24:25.259Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Blog简介">
-<meta name="twitter:description" content="blog 评论系统 搜索系统 札记 简介">
+<meta name="twitter:title" content="八皇后问题及Java实现">
+<meta name="twitter:description" content="八皇后问题及Java实现，其中包括递归和非递归形式两种">
 
 
 
@@ -128,13 +128,13 @@
 
 
 
-  <link rel="canonical" href="https://PrometheusQin.github.io/2017/08/03/札记简介/"/>
+  <link rel="canonical" href="https://PrometheusQin.github.io/2017/10/17/八皇后问题及Java实现/"/>
 
 
 
 
 
-  <title> Blog简介 | 代码未成，何以家为 </title>
+  <title> 八皇后问题及Java实现 | 代码未成，何以家为 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -316,7 +316,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://PrometheusQin.github.io/2017/08/03/札记简介/">
+    <link itemprop="mainEntityOfPage" href="https://PrometheusQin.github.io/2017/10/17/八皇后问题及Java实现/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="大馒头">
@@ -337,7 +337,7 @@
             
             
               
-                Blog简介
+                八皇后问题及Java实现
               
             
           </h1>
@@ -352,8 +352,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-03T12:00:45+08:00">
-                2017-08-03
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-17T17:17:58+08:00">
+                2017-10-17
               </time>
             
 
@@ -375,8 +375,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/札记/" itemprop="url" rel="index">
-                    <span itemprop="name">札记</span>
+                  <a href="/categories/Java学习笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">Java学习笔记</span>
                   </a>
                 </span>
 
@@ -394,8 +394,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2017/08/03/札记简介/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count hc-comment-count" data-xid="2017/08/03/札记简介/" itemprop="commentsCount"></span>
+                <a href="/2017/10/17/八皇后问题及Java实现/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count hc-comment-count" data-xid="2017/10/17/八皇后问题及Java实现/" itemprop="commentsCount"></span>
                 </a>
               </span>
               <!--/noindex-->
@@ -417,7 +417,7 @@
                   <span class="post-meta-item-text">字数统计</span>
                 
                 <span title="字数统计">
-                  283
+                  1,352
                 </span>
               
 
@@ -440,15 +440,38 @@
       
 
       
-        <blockquote>
-<p>blog 评论系统 搜索系统 札记 简介</p>
+        <p>八皇后问题及Java实现，其中包括递归和非递归形式两种<br><a id="more"></a></p>
+<p>八皇后问题：在8*8的棋盘上放置8个皇后，保证任意两个皇后之间不能相互攻击。（即没有两个皇后是在同一行、同一类、或者同一对角线上）</p>
+<ol>
+<li>计算出8皇后或者N皇后可能的所有摆放结果。其中8皇后共计有92种不同的解。</li>
+<li>打印显示出来其中的一种摆放结果或者所有的结果。</li>
+</ol>
+<h3 id="1-回溯法："><a href="#1-回溯法：" class="headerlink" title="1. 回溯法："></a>1. 回溯法：</h3><p>回溯法：即试探法，系统的搜索所有解的方法。具体思想：从一条路往前走，能进则进，不能进则退出来，换条路再走。解决八皇后问题的经典算法。</p>
+<blockquote>
+<p>伪代码如下：</p>
+<ol>
+<li>将棋盘存到一个N*N的矩阵中（8*8），二维数组。 </li>
+<li>算法开始，清空棋盘，当前行设为第一行，当前列设为第一列。</li>
+<li>在当前行当前列的位置是否满足条件：经过这一点的行、列、以及两条斜线上没有其他皇后。若满足：转到步骤4；若不满足，转到步骤5。</li>
+<li>满足步骤3的条件：在当前位置放置一个皇后，分以下情况：<blockquote>
+<ol>
+<li>若当前行不是最后一行，当前行设为下一行， 当前列设为当前行的第一个待测位置(不一定是第一个位置)；转到步骤3。</li>
+<li>如果是最后一行，记录下这个解。记录之后，若当前不是最后一列，当前列设为下一列；若当前列是最后一列，即最后一列，回溯，清空当前行，然后当前行设为上一行，当前列设为当前行的下一个待测位置。</li>
+</ol>
 </blockquote>
-<a id="more"></a>
-<p>这是我的第一个个人博客，折腾了大概有一周左右吧，真拖沓。准备在这个博客里写一些自己的学习笔记和相关的我折腾的技术类教程。这些内容应该和我简书里的内容是相同的，不过现在还没有准备完全脱离简书。</p>
-<p>另外“札记”会记录自己的日常，男人嘛，总有那么几天来“大姨夫”，算是借以发泄吧。</p>
-<p>关于评论系统，我用的是国外的HyperComments，没有翻墙的同学可能无法登陆评论，下面可以使用匿名评论，添加一个name和e-mail就行了。关于问题类的评论，我会尽快回复。</p>
-<p>关于搜索系统，百度的目前还搜索不到我的blog站点，不过G·o·o·g·l·e的已经可以了，<del>我会尽快写一篇关于能使用G·o·o·g·l·e的blog。敬请期待</del>。目前已经写好一个Google访问初稿，详情见文章：《G·o·o·g·l·e使用方法》</p>
-
+</li>
+<li>不满足步骤3的条件，分以下情况：<blockquote>
+<ol>
+<li>如果当前列不是最后一列，当前列设为下一列，继续步骤3。</li>
+<li>如果当前列是最后一列，回溯，即，若当前行已经是第一行了，算法退出，否则，清空当前行及以下各行的棋盘，然后，当前行设为上一行，继续步骤5。</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+<p>算法改进：把棋盘存储为一个二维数组，然后需要在第i行第j列放置皇后时，根据问题的描述，首先判断是在第i行是否有皇后，由于每行只有一个皇后，这个判断也可以省略，然后判断第j列是否有皇后，这个也很简单，最后需要判断在同一斜线上是否有皇后，按照该方法需要判断两次，正对角线方向和负对角线方向。相对较为复杂。<br>若把棋盘存储为一个N维数组q[N]，数组中第i个元素的值代表第i行的皇后所在列的位置，这样便可以把问题的空间规模压缩为一维O(N)，在判断是否冲突时也很简单，首先每行只有一个皇后，且在数组中只占据一个元素的位置，行冲突就不存在了，其次是列冲突，判断一下是否有a[i]与当前要放置皇后的列j相等即可。至于斜线冲突，通过观察可以发现所有在斜线上冲突的皇后的位置都有规律即它们所在的行列互减的绝对值相等，即| row – i | = | col – a[i] | 。这样某个位置是否可以放置皇后的问题已经解决。</p>
+</blockquote>
+<h5 id="1-递归实现"><a href="#1-递归实现" class="headerlink" title="1. 递归实现"></a>1. 递归实现</h5><p>代码如下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div></pre></td><td class="code"><pre><div class="line">//八皇后问题解法</div><div class="line">public class Queen &#123;</div><div class="line">      static int count=0;  //统计解的个数</div><div class="line">      static int N = 8;      //皇后个数：8</div><div class="line">      static int [] q = new int[N];  </div><div class="line">//大小为8的数组：数组下标表示：row，数组[i]对应内容：col。</div><div class="line">      public static void print()</div><div class="line">      &#123;//打印解的坐标位置及图像</div><div class="line">          for(int i=0;i&lt;N;i++)</div><div class="line">              System.out.println(i+&quot; &quot;+q[i]);</div><div class="line">          for(int i=0;i&lt;N;i++)</div><div class="line">          &#123;</div><div class="line">              System.out.print(&quot;|&quot;);</div><div class="line">              for(int j=0;j&lt;N;j++)</div><div class="line">              &#123;</div><div class="line">                  if(j==q[i])</div><div class="line">                      System.out.print(&quot;Q|&quot;);</div><div class="line">                  else</div><div class="line">                      System.out.print(&quot; |&quot;);</div><div class="line">              &#125;</div><div class="line">              System.out.println();</div><div class="line">          &#125;</div><div class="line">      &#125;</div><div class="line">      public static boolean canPlace(int i,int j)</div><div class="line">      &#123;//判断坐标(i,j)处是否可以放置皇后</div><div class="line">          for(int k=0;k&lt;i;k++)</div><div class="line">          &#123;</div><div class="line">              if(q[k]==j||Math.abs(i-k)==Math.abs(j-q[k]))</div><div class="line">                  return false;</div><div class="line">          &#125;</div><div class="line">          return true;</div><div class="line">      &#125;</div><div class="line">    public static void queen(int row)</div><div class="line">    &#123;//递归，从第row行开始循环每一列</div><div class="line">        if(row==N)</div><div class="line">        &#123;</div><div class="line">            count++;</div><div class="line">            if(count==1)</div><div class="line">            print();</div><div class="line">        &#125;</div><div class="line">        else</div><div class="line">        &#123;</div><div class="line">            for(int j=0;j&lt;N;j++)</div><div class="line">            &#123;</div><div class="line">                if(canPlace(row,j))</div><div class="line">                &#123;</div><div class="line">                    q[row]=j;</div><div class="line">                    queen(row+1);</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">  public static void main(String[] args) &#123;</div><div class="line">      for(int i=0;i&lt;N;i++)  //初始化</div><div class="line">      &#123; q[i]=-1;&#125;</div><div class="line">      queen(0);</div><div class="line">      System.out.println(count);</div><div class="line">&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h5 id="2-非递归实现"><a href="#2-非递归实现" class="headerlink" title="2. 非递归实现"></a>2. 非递归实现</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div></pre></td><td class="code"><pre><div class="line">public class Queen &#123;</div><div class="line">    static int N=8;</div><div class="line">    static int[]q=new int[N];</div><div class="line">    static int count=0;</div><div class="line">     public static void print()</div><div class="line">      &#123;</div><div class="line">          for(int i=0;i&lt;N;i++)</div><div class="line">              System.out.println(i+&quot; &quot;+q[i]);</div><div class="line">          for(int i=0;i&lt;N;i++)</div><div class="line">          &#123;</div><div class="line">              System.out.print(&quot;|&quot;);</div><div class="line">              for(int j=0;j&lt;N;j++)</div><div class="line">              &#123;</div><div class="line">                  if(j==q[i])</div><div class="line">                      System.out.print(&quot;Q|&quot;);</div><div class="line">                  else</div><div class="line">                      System.out.print(&quot; |&quot;);</div><div class="line">              &#125;</div><div class="line">              System.out.println();</div><div class="line">          &#125;</div><div class="line">      &#125;</div><div class="line">      public static boolean canPlace(int i,int j)</div><div class="line">      &#123;</div><div class="line">          for(int k=0;k&lt;i;k++)</div><div class="line">          &#123;</div><div class="line">              if(q[k]==j||Math.abs(i-k)==Math.abs(j-q[k]))</div><div class="line">                  return false;</div><div class="line">          &#125;</div><div class="line">          return true;</div><div class="line">      &#125;</div><div class="line">    public static void queen()</div><div class="line">    &#123; </div><div class="line">        int row=0,col=0;</div><div class="line">        while(row&lt;N)</div><div class="line">        &#123;</div><div class="line">            while(col&lt;N)</div><div class="line">            &#123;</div><div class="line">                if(canPlace(row,col))</div><div class="line">                &#123;</div><div class="line">                    q[row]=col;</div><div class="line">                    col=0;</div><div class="line">                    break;</div><div class="line">                &#125;</div><div class="line">                else</div><div class="line">                &#123;</div><div class="line">                    ++col;</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line">            if(col==N)//q[row]==-1</div><div class="line">            &#123;</div><div class="line">                if(row==0)</div><div class="line">                    break;</div><div class="line">                else</div><div class="line">                &#123;</div><div class="line">                    --row;</div><div class="line">                    col=q[row]+1;</div><div class="line">                    q[row]=-1;  //把上一行皇后的位置清除，重新探测</div><div class="line">                    continue;</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line">            if(row==N-1)</div><div class="line">            &#123;</div><div class="line">                count++;</div><div class="line">                if(count==1)</div><div class="line">                    print();</div><div class="line">                col=q[row]+1;</div><div class="line">                q[row]=-1;</div><div class="line">                continue;</div><div class="line">            &#125;</div><div class="line">            ++row;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">  public static void main(String[] args) &#123;</div><div class="line">    for(int i=0;i&lt;N;i++)//初始化</div><div class="line">       q[i]=-1;</div><div class="line">    queen();</div><div class="line">    System.out.println(count);</div><div class="line">&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
       
     </div>
 
@@ -475,6 +498,14 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/算法/" rel="tag"># 算法</a>
+          
+            <a href="/tags/Java/" rel="tag"># Java</a>
+          
+        </div>
+      
 
       
         
@@ -484,8 +515,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/07/28/个人博客网站搭建（一）-基于Hexo与Github/" rel="next" title="个人博客网站搭建（一）--基于Hexo与Github">
-                <i class="fa fa-chevron-left"></i> 个人博客网站搭建（一）--基于Hexo与Github
+              <a href="/2017/09/24/G-o-o-g-l-e使用方法/" rel="next" title="G*o*o*g*l*e使用方法">
+                <i class="fa fa-chevron-left"></i> G*o*o*g*l*e使用方法
               </a>
             
           </div>
@@ -493,10 +524,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/08/03/个人博客网站搭建（二）-常用命令、配置相关、主题设置/" rel="prev" title="个人博客网站搭建（二）--常用命令、配置相关、主题设置">
-                个人博客网站搭建（二）--常用命令、配置相关、主题设置 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -551,8 +578,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="http://ou2882sdw.bkt.clouddn.com/avatar.png"
@@ -644,6 +680,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-回溯法："><span class="nav-text">1. 回溯法：</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-递归实现"><span class="nav-text">1. 递归实现</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-非递归实现"><span class="nav-text">2. 非递归实现</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -779,7 +831,7 @@
 		_hcwp.push({widget:"Bloggerstream", widget_id: 93858, selector:".hc-comment-count", label: "{\%COUNT%\}" });
 
 		
-		_hcwp.push({widget:"Stream", widget_id: 93858, xid: "2017/08/03/札记简介/"});
+		_hcwp.push({widget:"Stream", widget_id: 93858, xid: "2017/10/17/八皇后问题及Java实现/"});
 		
 
 		(function() {
