@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://PrometheusQin.github.io/"/>
-  <updated>2017-10-17T09:24:25.000Z</updated>
+  <updated>2017-11-25T14:11:29.910Z</updated>
   <id>https://PrometheusQin.github.io/</id>
   
   <author>
@@ -14,6 +14,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>近况</title>
+    <link href="https://PrometheusQin.github.io/2017/11/25/%E8%BF%91%E5%86%B5/"/>
+    <id>https://PrometheusQin.github.io/2017/11/25/近况/</id>
+    <published>2017-11-25T13:58:26.000Z</published>
+    <updated>2017-11-25T14:11:29.910Z</updated>
+    
+    <content type="html"><![CDATA[<p>总感觉在忙，总感觉时间不够用</p>
+<p>可回头想想，自己好像也没有学到多少东西</p>
+<p>讨厌无关紧要的人、无关紧要的事来打扰自己，就算没人打扰，自己也静不下心来。</p>
+<p>偶尔静下来，大多数时间也都是在胡思乱想，时而懊悔，时而迷茫，简直就是神经病。</p>
+<p>有点累，有点困，想睡觉，又睡不踏实</p>
+<p>这人呐，就是贱啊</p>
+<p>没事了，全当大姨夫来了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;总感觉在忙，总感觉时间不够用&lt;/p&gt;
+&lt;p&gt;可回头想想，自己好像也没有学到多少东西&lt;/p&gt;
+&lt;p&gt;讨厌无关紧要的人、无关紧要的事来打扰自己，就算没人打扰，自己也静不下心来。&lt;/p&gt;
+&lt;p&gt;偶尔静下来，大多数时间也都是在胡思乱想，时而懊悔，时而迷茫，简直就是神经病。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="札记" scheme="https://PrometheusQin.github.io/categories/%E6%9C%AD%E8%AE%B0/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>八皇后问题及Java实现</title>
