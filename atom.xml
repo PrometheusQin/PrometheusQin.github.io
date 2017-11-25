@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://PrometheusQin.github.io/"/>
-  <updated>2017-10-17T09:24:25.259Z</updated>
+  <updated>2017-10-17T09:24:25.000Z</updated>
   <id>https://PrometheusQin.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://PrometheusQin.github.io/2017/10/17/%E5%85%AB%E7%9A%87%E5%90%8E%E9%97%AE%E9%A2%98%E5%8F%8AJava%E5%AE%9E%E7%8E%B0/"/>
     <id>https://PrometheusQin.github.io/2017/10/17/八皇后问题及Java实现/</id>
     <published>2017-10-17T09:17:58.000Z</published>
-    <updated>2017-10-17T09:24:25.259Z</updated>
+    <updated>2017-10-17T09:24:25.000Z</updated>
     
     <content type="html"><![CDATA[<p>八皇后问题及Java实现，其中包括递归和非递归形式两种<br><a id="more"></a></p>
 <p>八皇后问题：在8*8的棋盘上放置8个皇后，保证任意两个皇后之间不能相互攻击。（即没有两个皇后是在同一行、同一类、或者同一对角线上）</p>
@@ -72,10 +72,10 @@
   
   <entry>
     <title>G*o*o*g*l*e使用方法</title>
-    <link href="https://PrometheusQin.github.io/2017/09/24/G-o-o-g-l-e%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/"/>
-    <id>https://PrometheusQin.github.io/2017/09/24/G-o-o-g-l-e使用方法/</id>
+    <link href="https://PrometheusQin.github.io/2017/09/24/G*o*o*g*l*e%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/"/>
+    <id>https://PrometheusQin.github.io/2017/09/24/G*o*o*g*l*e使用方法/</id>
     <published>2017-09-24T12:42:12.000Z</published>
-    <updated>2017-09-24T13:30:41.648Z</updated>
+    <updated>2017-09-24T13:30:41.000Z</updated>
     
     <content type="html"><![CDATA[<p>google使用方法总结<br><a id="more"></a></p>
 <h3 id="1-直接输入网址：https：-ipv6-google-com"><a href="#1-直接输入网址：https：-ipv6-google-com" class="headerlink" title="1. 直接输入网址：https：//ipv6.google.com"></a>1. 直接输入网址：https：//ipv6.google.com</h3><ul>
@@ -113,7 +113,7 @@
     <link href="https://PrometheusQin.github.io/2017/09/12/%E6%88%91%E5%BF%83%E5%8C%AA%E7%9F%B3/"/>
     <id>https://PrometheusQin.github.io/2017/09/12/我心匪石/</id>
     <published>2017-09-12T06:07:23.000Z</published>
-    <updated>2017-09-12T06:31:57.441Z</updated>
+    <updated>2017-09-12T06:31:57.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>来源自网易云评论——《春庭雪》  –橙翼<br>我心匪石，不可转也。 我心匪席，不可卷也。    –《诗经·邶风·柏舟》</p>
@@ -147,7 +147,7 @@
     <link href="https://PrometheusQin.github.io/2017/08/04/%E7%AD%89%E6%88%91%E5%B9%B2IT%E5%8F%91%E8%B4%A2%E4%BA%86/"/>
     <id>https://PrometheusQin.github.io/2017/08/04/等我干IT发财了/</id>
     <published>2017-08-04T11:14:06.000Z</published>
-    <updated>2017-08-05T09:16:52.400Z</updated>
+    <updated>2017-08-05T09:16:52.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>笑话两则<br>来源：佳飞创世（ID：jfcs58090812）</p>
@@ -174,10 +174,10 @@
   
   <entry>
     <title>个人博客网站搭建（二）--常用命令、配置相关、主题设置</title>
-    <link href="https://PrometheusQin.github.io/2017/08/03/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%EF%BC%88%E4%BA%8C%EF%BC%89-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E3%80%81%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3%E3%80%81%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE/"/>
-    <id>https://PrometheusQin.github.io/2017/08/03/个人博客网站搭建（二）-常用命令、配置相关、主题设置/</id>
+    <link href="https://PrometheusQin.github.io/2017/08/03/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%EF%BC%88%E4%BA%8C%EF%BC%89--%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E3%80%81%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3%E3%80%81%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE/"/>
+    <id>https://PrometheusQin.github.io/2017/08/03/个人博客网站搭建（二）--常用命令、配置相关、主题设置/</id>
     <published>2017-08-03T04:20:23.000Z</published>
-    <updated>2017-08-03T05:18:55.617Z</updated>
+    <updated>2017-08-03T05:18:55.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>个人博客网站搭建基本教程（二）</p>
@@ -282,10 +282,10 @@
   
   <entry>
     <title>Blog简介</title>
-    <link href="https://PrometheusQin.github.io/2017/08/03/%E6%9C%AD%E8%AE%B0%E7%AE%80%E4%BB%8B/"/>
-    <id>https://PrometheusQin.github.io/2017/08/03/札记简介/</id>
+    <link href="https://PrometheusQin.github.io/2017/08/03/Blog%E7%AE%80%E4%BB%8B/"/>
+    <id>https://PrometheusQin.github.io/2017/08/03/Blog简介/</id>
     <published>2017-08-03T04:00:45.000Z</published>
-    <updated>2017-09-24T13:26:58.642Z</updated>
+    <updated>2017-09-24T13:26:58.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>blog 评论系统 搜索系统 札记 简介</p>
@@ -312,10 +312,10 @@
   
   <entry>
     <title>个人博客网站搭建（一）--基于Hexo与Github</title>
-    <link href="https://PrometheusQin.github.io/2017/07/28/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%EF%BC%88%E4%B8%80%EF%BC%89-%E5%9F%BA%E4%BA%8EHexo%E4%B8%8EGithub/"/>
-    <id>https://PrometheusQin.github.io/2017/07/28/个人博客网站搭建（一）-基于Hexo与Github/</id>
+    <link href="https://PrometheusQin.github.io/2017/07/28/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%EF%BC%88%E4%B8%80%EF%BC%89--%E5%9F%BA%E4%BA%8EHexo%E4%B8%8EGithub/"/>
+    <id>https://PrometheusQin.github.io/2017/07/28/个人博客网站搭建（一）--基于Hexo与Github/</id>
     <published>2017-07-28T07:17:42.000Z</published>
-    <updated>2017-08-03T05:13:24.517Z</updated>
+    <updated>2017-08-03T05:13:24.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>个人博客网站搭建基本教程（一）</p>
